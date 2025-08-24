@@ -1,0 +1,92 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+.logo {
+    width: 100px;
+  }
+
+h1 {
+  font-size: 5rem;
+  font-family: "Cherry Bomb One";
+  margin-top: 16px;
+}
+
+footer {
+  text-align: center;
+  color: rgb(235, 108, 24);
+}
+
+.tile-image {
+  float: left;
+  height: 200px;
+  margin-right: 50px;
+}
+
+.card {
+  width: 45%;
+  text-align: left;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.creative {
+  color: rgb(233, 87, 2);
+}
+
+.card img {
+    display: inline;
+    margin-bottom: 16px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 2px solid orange;
+  }
+
+@media (max-width: 680px) and (min-width: 200px){
+
+  body {
+    position: relative;
+  }
+
+  .logo {
+    width: 100px;
+    position: absolute;
+    left: 40%;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 120px;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 32px;
+    text-align: justify;
+  }
+
+  .card img {
+    display: inline;
+    margin-bottom: 16px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
